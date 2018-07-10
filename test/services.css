@@ -1,0 +1,176 @@
+
+
+/*default sizes para pantallas de 1366 x 768
+banner */
+.headex {
+    height: 110px;
+    width: 20%;
+    background-color: white;
+}
+
+header {
+    font-size: 35px;
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    border: 2px solid rgba(70, 131, 180, 0.712);;
+    color: #000000b2;
+    height: 70%;
+    width: 80%;
+    padding-top: 10%;
+    padding-left: 17%;
+    background-image: url("../media/eng.png");
+    background-size: 80px 90px;
+    background-repeat: no-repeat;
+}
+
+
+/* menu de navegacion */
+ul {
+    list-style-type: none;
+    margin-top: 30px;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    font-family: 'Source Sans Pro';
+    height: auto;
+    width: 100%;
+}
+
+li {
+    float: left;
+    margin-left: 100px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #3884ed;
+}
+
+.active {
+    background-color: #3264c8;
+}
+
+.home {
+    margin-left: 130px;
+}
+
+.services {
+    background-color:#3884ed;
+}
+
+.services:hover:not(.active) {
+    background-color: #006aff;
+}
+
+
+/* contenido */
+
+body {
+    background: #e0ffff63;
+    height: auto;
+    width: 100%
+
+}
+
+
+.container {
+    border: 5px solid rgba(0, 0, 0, 0.575);
+    margin: 5% 10% 10% 9%;
+    background-image: url("../media/pyf (10).jpg");
+    background-size: 100% 100%;
+    height: auto;
+    width: 80%;
+}
+
+/* titulo */
+
+.titulo {
+    font-family: 'Source Sans Pro';
+    font-style: thin;
+    text-align: center;
+    border: 2px double black;
+    background-color: #e0ffff63;
+    width: 30%;
+    margin-left: 34%;
+    margin-right: 20%;
+    margin-top: 50px;
+}
+
+
+p {
+    font-family: 'Source Sans Pro';
+    font-size: 30px;
+    border: 3px solid #06070763;
+    background-color: #e0ffff8a;
+    height: 390px;
+    width: 50%;
+    color: black;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-left: 23%;
+    margin-top: 2%;
+}
+
+.footer {
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+    height: 60px;
+    width: 100%;
+    color: black;
+    background-color: #0665bd67;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* dimensiones x dispositivo/screensize */
+@media only screen and (min-width:1920px) {
+    p {
+      height: 500px;
+      font-size: 36px;
+      font-style: thin;
+    }
+    .container {
+        margin-bottom: 100px;
+    }
+    .bienvenidos {
+        margin-left: 36%;
+        font-size: 30px;
+        width: 25%;
+    }
+    .headex {
+        width: 15%;
+        height: 115px;
+    } 
+    header {
+        background-size: 100px 100px;
+        background-repeat: no-repeat;
+        width: 80%;
+        height: 80px; 
+    }
+}
+
+@media only screen and (min-width:1360px) {
+    .container {
+        height: 600px;
+        margin: 5% 10% 5% 9%;
+        background-size: 1080px 610px;
+    }
+    .titulo {
+        margin-top: 60px;
+    }
+    p {
+        width: 910px;
+        margin: 0px 90px 0px 62px;
+    }
+}
